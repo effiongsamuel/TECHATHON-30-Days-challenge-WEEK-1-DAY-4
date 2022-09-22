@@ -15,10 +15,22 @@
     background-color: hsl(0, 0%, 81%);
 }
 
-.support{
+a{
     text-decoration: none;
     white-space: nowrap;
+    border-radius: 2em;
+    border-style: groove;
+    padding: 1.2em 1.8125em;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    letter-spacing: 1px;
 }
+a:hover {
+    cursor: pointer;
+}
+
 
 .box_testimonial{
     max-width: 330px;
